@@ -5,6 +5,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -22,6 +24,11 @@ Desktop View
 
 Mobile View
 ![](./src/images/375xMobile.png)
+
+### Links
+
+- Solution URL: [https://github.com/Sarkis-S/qr-code-component][https://github.com/Sarkis-S/qr-code-component]
+- Live site URL: [https://dashing-hummingbird-695408.netlify.app/][https://dashing-hummingbird-695408.netlify.app/]
 
 ## My process
 
@@ -44,7 +51,7 @@ Mobile View
 
 Overall, this a simple component that focuses more on design and CSS. By completing this component I was reminded how Cascading Style Sheets work from top to bottom with certain selectors being heavier than others.
 
-Take this snippet for from my HTML and CSS exercise file:
+Take this snippet from my HTML and CSS exercise file:
 
 ```
 <figure className='qr-items'>
@@ -79,8 +86,8 @@ Also following the flow of CSS. I was bewildered why my media query did not take
 ### Useful resources
 
 - [Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) - This helped to give me a more in-depth understanding of media queries as needed in this exercise
-- [Semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
-- [Semantic HTML](https://www.freecodecamp.org/news/semantic-html5-elements/#:~:text=Semantic%20HTML%20elements%20are%20those,content%20that%20is%20inside%20them.)
+- [Semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics) - MDN Docs
+- [Semantic HTML](https://www.freecodecamp.org/news/semantic-html5-elements/#:~:text=Semantic%20HTML%20elements%20are%20those,content%20that%20is%20inside%20them.) - FreeCodeCamp
 
 ## Author
 
