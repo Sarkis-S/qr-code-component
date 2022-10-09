@@ -54,15 +54,13 @@ Overall, this a simple component that focuses more on design and CSS. By complet
 Take this snippet from my HTML and CSS exercise file:
 
 ```
-<figure className='qr-items'>
+<section className='qr-items'>
   <img className='qr-code' src={qrcode} alt='qr code for scanning'/>
   <div className='text-container'>
-    <figcaption>
-      <h2>Improve your front-end skills by building projects</h2>
-    </figcaption>
+    <h1>Improve your front-end skills by building projects</h1>
     <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
   </div>
-</figure>
+</section>
 ```
 
 ```
@@ -79,7 +77,7 @@ p {
 }
 ```
 
-I was tempted to create another styling DIV for the second text after the h2, but a quick p style after the text-container is all that is needed. It works because the styling for text-container is applied, then the paragraph styling overwrites it.
+I was tempted to create another styling DIV for the second text after the h1, but a quick p style after the text-container is all that is needed. It works because the styling for text-container is applied, then the paragraph styling overwrites it.
 
 Also following the flow of CSS. I was bewildered why my media query did not take effect immediately. But upon realizing my error, all I had to do was move the media query to the bottom of the page. This is necessary when building mobile-first applications because we want the styles to work for mobile first, while changes needed only take effect when sizes change to wider screens.
 
