@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 .App {
-  background-color: rgb(210, 225, 230);
+  background-color: rgb(201, 216, 237);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,30 +20,36 @@
   box-shadow: 1px 10px 10px 10px rgba(202, 202, 212, 0.2);
 }
 
-.text-container {
-  font-family: 'Outfit';
-  font-size: 15px;
-  color: black;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-p {
-  color: gray;
-}
-
 .qr-items {
   display: flex;
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
-  padding: 5px 5px 5px 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .qr-code {
-  width: 300px;
-  height: 300px;
+  width: 325px;
+  height: 325px;
   border-radius: 10px;
+}
+
+.text-container {
+  font-family: 'Outfit';
+  font-size: 15px;
+  color: black;
+  height: 180px;
+}
+.text-container h1 {
+  font-size: 18px;
+}
+
+p {
+  color: gray;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -52,13 +58,9 @@ p {
     height: 400px;
   }
 
-  .qr-items {
-    padding: 0px;
-  }
-
   .qr-code {
-    width: 220px;
-    height: 220px;
+    width: 225px;
+    height: 225px;
     border-radius: 10px;
   }
 
@@ -66,6 +68,12 @@ p {
     font-size: 12px;
     padding-left: 5px;
     padding-right: 5px;
-    height: 150px;
+    width: 225px;
+    height: 165px;
+  }
+  
+  p {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
