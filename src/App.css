@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   width: 350px;
-  height: 550px;
+  height: 520px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 1px 10px 10px 10px rgba(202, 202, 212, 0.2);
@@ -26,7 +26,6 @@
   color: black;
   padding-left: 15px;
   padding-right: 15px;
-
 }
 
 p {
@@ -38,11 +37,35 @@ p {
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
-  padding: 20px 20px 20px 20px;
+  padding: 5px 5px 5px 5px;
 }
 
-.qr-box {
+.qr-code {
   width: 300px;
   height: 300px;
   border-radius: 10px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .qr-container {
+    width: 250px;
+    height: 400px;
+  }
+
+  .qr-items {
+    padding: 0px;
+  }
+
+  .qr-code {
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+  }
+
+  .text-container {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 150px;
+  }
 }
